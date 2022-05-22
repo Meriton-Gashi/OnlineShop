@@ -49,7 +49,8 @@ else if(isset($_GET['action']) && $_GET['action'] == 'add-to-cart'){
         $cartmapper->insertToCart($user['id'], $_GET['product_id'], $_GET['size']);
         header("Location: ../views/cart.php");
     }
-}else if (isset($_POST['add-slider-img'])){
+}
+else if (isset($_POST['add-slider-img'])){
     $usermapper = new UserMapper();
 
     // get from database the actual admin who is logged in

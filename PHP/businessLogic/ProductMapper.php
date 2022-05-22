@@ -72,7 +72,7 @@ class ProductMapper extends DatabaseConfig {
         return $result;
     }
 
-     public function getProductsByCategoryAndByLimitAndNotSameID($category,$product_id,$number){
+    public function getProductsByCategoryAndByLimitAndNotSameID($category,$product_id,$number){
         $this->query = "select * from `products` where category =:category and product_id !=:product_id limit $number";
         $statement = $this->connection->prepare($this->query);
         $statement->bindParam(":category", $category);

@@ -22,7 +22,7 @@
                         <li><a href="#">Shipping in 1-3 days</a></li>
                         <li><a href="#">Payment by Credit card & Paypal</a></li>
                         <li><a href="#">Returns free of charge</a></li>
-                        <li><a href="#">Adaspera FRIENDS (3% BONUS)</a></li>
+                        <li><a href="#"> FRIENDS (3% BONUS)</a></li>
                     </ul>
                 </div>
 
@@ -39,7 +39,7 @@
                 </div>
 
                 <div class="footer-col">
-                    <h4>Adaspera</h4>
+                    <h4>OnlineShop</h4>
                     <ul>
                         <li><a href="#">Press</a></li>
                         <li><a href="#">Investor Relations</a></li>
@@ -63,7 +63,7 @@
         ">
             <span style="
             color: #ffff;
-        ">Copyright © 2022 Adaspera. All rights reserved.</span>
+        ">Copyright © 2022 OnlineShop. All rights reserved.</span>
         </div>
 
     </footer>
